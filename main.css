@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  width: 640px;
+  height: 420px;
+}
+
+.header {
+  width: 640px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Calibri;
+  font-size: 12px;
+}
+
+.name-uzr {
+  margin-left: 10px;
+}
+
+.middle {
+  width: 640px;
+  height: 378px;
+  font-family: Calibri;
+  font-size: 10px;
+}
+
+.footer {
+  width: 640px;
+  height: 62px;
+  font-family: Calibri;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.main__contant {
+  padding: 20px 30px;
+  font-size: 10px;
+  font-family: Calibry;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.title__content {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.text__contant:nth-child(2) {
+  background-color: rgb(0, 177, 72);
+}
+.btn--menu {
+  padding: 20px 30px;
+  border: solid 2px;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background: rgb(224, 224, 224);
+}
+.last {
+  margin-right: 0;
+
+}
+.two{
+  margin-bottom: 0;
+}
+
+.b-gray {
+  background: rgb(195, 195, 195);
+}
+
+.b-light-gray {
+  background: rgb(224, 224, 224);
+}
+
+.b-black {
+  background: rgb(0, 0, 0);
+}
+
+.b-red {
+  background: rgb(237, 28, 36);
+}
+
+.b-green {
+  background: rgb(0, 177, 72);
+}
+
+.b-blue {
+  background: rgb(153, 217, 234);
+}
+
+.b-yellow {
+  background: rgb(247, 238, 0);
+}
